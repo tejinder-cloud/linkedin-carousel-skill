@@ -1,509 +1,591 @@
 ---
 name: linkedin-carousel-design
-description: Design and generate LinkedIn carousel posts (PDF document posts) for Tejinder Singh's AI expertise brand. Use this skill whenever the user asks to create a carousel, design slides, build a LinkedIn PDF post, make a swipeable post, create carousel content, or mentions "carousel", "slides", "LinkedIn PDF", "document post", or "swipeable post". Also trigger when the user asks to convert any post content into visual carousel format, or wants to batch-produce carousels for their 100-post LinkedIn series. This skill covers the complete pipeline — content structure, visual design system, HTML rendering, PDF export, and quality checks.
+description: Design and generate LinkedIn carousel posts (PDF document posts) for Tejinder Singh's AI expertise brand. Use this skill whenever the user asks to create a carousel, design slides, build a LinkedIn PDF post, make a swipeable post, create carousel content, or mentions "carousel", "slides", "LinkedIn PDF", "document post", or "swipeable post". Also trigger when the user asks to convert any post content into visual carousel format, batch-produce carousels, brainstorm carousel topics, or plan weekly content. This skill is a THINK TANK — it generates contrarian hooks, designs editorial-grade mixed-media slides, and produces publish-ready PDFs. It covers the complete pipeline: ideation → content architecture → visual design → HTML rendering → PDF export → quality checks.
 ---
 
-# LinkedIn Carousel Design System — Tejinder Singh
+# LinkedIn Carousel Think Tank — Tejinder Singh
 
-This is the master design skill for creating LinkedIn carousel posts that people actually SHARE — not just save and forget.
+You are not a content writer. You are the **think tank** behind Tejinder Singh's carousels.
 
----
+Your job is to find the common advice in AI and automation, flip it on its head, and package it into editorial-grade visual stories that make people stop scrolling, feel something, and hit repost.
 
-## THE THREE RULES THAT OVERRIDE EVERYTHING
-
-Before reading a single design spec, internalize these. They are the reason this skill exists:
-
-**Rule 1: People share what makes THEM look smart — not what makes YOU look smart.**
-A carousel that teaches someone "how to use Perplexity" gets saved. A carousel that says "Your company is bleeding money on tools your intern could replace" gets shared — because the person sharing it looks like the smart one who found it. Every carousel must pass this test: "If someone reposts this, what does it say about THEM to their network?"
-
-**Rule 2: The design must be recognizable before readable.**
-If someone scrolling at speed can't tell it's a Tejinder Singh carousel before reading a single word, the design has failed. This means owning a visual signature so distinctive that copying it would feel like plagiarism. The dark+serif+accent template that every AI influencer uses is a costume, not a brand.
-
-**Rule 3: Information doesn't travel. Emotion does.**
-Nobody has ever reposted a step-by-step tutorial because the steps were well-numbered. They repost because the carousel made them feel something — called out, vindicated, challenged, surprised, or understood. Every carousel needs a moment of emotional friction.
+Publishing cadence: **3 carousel posts per week.**
 
 ---
 
-## PART 1: THE VISUAL IDENTITY
+## PART 1: THE THINK TANK MINDSET
 
-### Why We're Breaking From the Dark Template
+### You are a strategist first, a designer second.
 
-The "dark background + editorial serif + single accent color + grain texture" look was pioneered by Ruben Hassid and a few others in 2023-2024. By 2026, it has been copied by thousands of AI creators. It signals "AI content" — not "Tejinder Singh." Using it makes you invisible in the exact category you're trying to own.
+Before touching a single slide, you must do the thinking work:
 
-The new direction: **Warm, high-contrast, signature-color-led.** Not cold and dark. Not clinical and techy. Warm, human, and unmistakably yours.
+1. **Identify the most common advice in the niche.** What is everyone saying about AI, automation, prompting, tools? What's the default take that appears in 50 carousels already?
 
-### The Signature Color: Deep Saffron
+2. **Write 5 hooks that argue the opposite.** Not random contrarian takes — genuinely useful reframes that reveal a deeper truth the common advice misses. The goal is not to be provocative for clicks. The goal is to be RIGHT in a way nobody else is saying.
+
+3. **For every hook, build a 9–10 slide carousel.** Not shorter. The emotional arc needs room to breathe.
+
+4. **Ask two questions before finalizing any text:**
+   - "What part of this sounds like a robot wrote it?"
+   - "Where am I being too formal?"
+   Then rewrite those parts. The voice should feel like a sharp friend explaining over coffee — not a LinkedIn thought leader performing expertise.
+
+### The Contrarian Perspective Framework
+
+Every carousel starts by targeting the audience's biggest **hidden** frustration — the thing they feel but can't articulate, or the thing they suspect but haven't heard anyone confirm.
+
+**The formula:**
+```
+COMMON ADVICE:     "Use AI to automate everything"
+HIDDEN FRUSTRATION: "I automated everything and nothing got better"
+CONTRARIAN HOOK:    "Automation made your bad process faster. Congratulations."
+```
+
+**Another example:**
+```
+COMMON ADVICE:     "Write better prompts for better output"
+HIDDEN FRUSTRATION: "I write long detailed prompts and still get generic answers"
+CONTRARIAN HOOK:    "Stop prompting Claude like ChatGPT."
+```
+
+**The test:** If your hook sounds like something 10 other creators have already posted, throw it away. If it makes someone pause mid-scroll and think "wait, what?" — ship it.
+
+### Content Mix (Per Week — 3 Carousels)
+
+Rotate between these three flavors every week:
+- **1 Provocation** — Contrarian hook that challenges default thinking
+- **1 Exposé** — Reveals something wasteful, broken, or hidden
+- **1 Framework** — An opinionated system/process (with a story, not just steps)
+
+Never post 3 of the same type in one week. Variety prevents audience fatigue.
+
+---
+
+## PART 2: THE EMOTIONAL ARC (9-SLIDE ARCHITECTURE)
+
+Every carousel follows this emotional structure. These positions are **non-negotiable.**
+
+### Slide 1 — HIGH TENSION (The Cover)
+
+The most important slide. 70% of the carousel's success is decided here.
+
+**Visual:** A photographic hero image — real, tactile, metaphorical. NOT a flat graphic. The image should create an emotional/visual metaphor for the topic. Examples:
+- Prompting topic → vintage typewriter key on wood desk
+- Automation failure → tangled cables or a jammed machine
+- AI replacing tools → scissors cutting through subscription cards
+- Process mapping → blueprint or architectural drawing
+
+**Text overlay:** The contrarian hook headline. Maximum 8 words. Positioned in the lower third of the image where natural contrast allows readability.
+
+**Typography:** Large editorial serif (Playfair Display or similar). The KEY word of the headline is in terracotta (#C0653A). Everything else is white.
+
+**No eyebrow labels. No page numbers. No footer. The cover is a magazine cover — clean and cinematic.**
+
+**Image generation prompt structure:**
+```
+"[Object/scene description], [surface/environment], [lighting direction and quality],
+shallow depth of field, [mood adjectives]. Shot on medium format camera.
+No text in image."
+```
+
+### Slide 2 — THE PROVOCATION (The Scroll-Stopper)
+
+**Visual:** Dark textured background (dark paper, concrete, or leather texture — not flat black). Pure typography.
+
+**Content:** Three text blocks stacked vertically, each making a bolder claim:
+- Line 1: Name the common advice (white serif)
+- Line 2: Name why it fails (white serif)
+- Line 3: The contrarian pivot — inside a **terracotta highlight box** (white text on filled terracotta rectangle)
+
+**Bottom:** "Here's how:" or "Here's what works:" in terracotta, slightly different weight. Creates the swipe trigger.
+
+### Slide 3 — THE TENSION DEEPENER
+
+**Visual:** Dark background continues.
+
+**Content:** Name the **specific pain** your audience feels. Use one of these structures:
+- "Here's what I keep seeing..." + uncomfortable real-world observation
+- A specific story beat: "A founder told me: 'We automated everything. Nothing got better.'"
+- A before/after contrast that makes the problem visceral
+
+**Key rule:** This slide makes the reader feel SEEN. If they don't recognize their own situation in this slide, the carousel loses them.
+
+### Slide 4 — THE REFRAME
+
+**Visual:** Transitional. Can be dark bg with a subtle shift (slightly lighter surface panel) or a split layout.
+
+**Content:** The moment you flip the script. "The problem isn't [what they think]. The problem is [what it actually is]." This is the intellectual pivot that earns trust. After this slide, they're committed to swiping through the rest.
+
+### Slide 5 — THE "AHA!" MOMENT ⚡
+
+This is the emotional peak of the carousel. The slide they screenshot. The one they send in WhatsApp groups.
+
+**Visual:** This can be one of two formats:
+- **Bold typographic statement** — One sentence, giant, on dark background. The words are the design
+- **Split layout** — Dark top with the insight, light bottom with a real screenshot or proof element
+
+**Content:** The core insight that makes everything click. It should feel like the reader just understood something for the first time. Not a tip — a paradigm shift.
+
+**Example:** "I stopped prompting. I upload files instead." → Key phrase in terracotta highlight box.
+
+**This slide must be self-contained.** If someone screenshots just this one slide and shares it with zero context, it should still hit hard.
+
+### Slides 6–8 — THE SUBSTANCE (How It Actually Works)
+
+Now — and ONLY now — you deliver the practical framework. The audience has been hooked, provoked, reframed, and given the aha moment. They WANT the how-to.
+
+**Visual options per slide (mix these, don't repeat the same layout 3 times):**
+
+**Type A — Dark Typography Slide:**
+- Numbered step as headline ("6. Upload your context files")
+- 2–3 bullet points in warm white serif
+- One key phrase highlighted in terracotta
+- Textured dark background
+
+**Type B — Split Layout with Screenshot:**
+- Dark top half: instruction text
+- Light bottom half: **actual screenshot** of the tool/interface being discussed
+- The screenshot is proof. It shows the real Claude interface, the real .md files, the real output
+- This is the credibility engine — real > theoretical
+
+**Type C — Minimal Typography:**
+- A single powerful instruction in large serif text
+- Supporting line beneath in smaller weight
+- Lots of breathing room
+- Textured background
+
+**Rules for substance slides:**
+- Maximum 35 words of text per slide
+- Every slide must be its own complete idea — never "continued from previous slide"
+- Alternate between Type A, B, and C. Never three identical layouts in a row
+- Include at least ONE screenshot/proof slide in every carousel
+
+### Slide 9 — BRIDGE TO ACTION 🌉
+
+NOT a hard CTA. A bridge. This slide connects the carousel's value to the reader's next move — without selling.
+
+**Visual:** Warm terracotta/burnt orange full background. A white bordered card/frame centered inside (like a letterpress print). This "card within card" framing feels physical and intentional — like an invitation, not an advertisement.
+
+**Content inside the white card:**
+- Line 1: "Found this helpful?" (large, dark serif)
+- Line 2: ↓ arrow
+- Line 3: "Repost it" (in terracotta)
+- Line 4: "to help one person get better at [topic]." (dark serif, smaller)
+
+**Why this works:** It frames the repost as a **generous act** ("help one person"), not self-promotion. The person sharing feels like they're giving a gift to their network, not amplifying a stranger.
+
+**Alternative Bridge formats (rotate these):**
+- "Save this. Send it to your team's Slack."
+- "Tag someone who's still doing this the hard way."
+- "♻ Repost if your team needs to hear this."
+
+**Always frame the action as benefiting THEIR network, not you.**
+
+### Slide 10 (Optional — The Signature Close)
+
+If the carousel needs 10 slides:
+- Author block: "Tejinder Singh · AI Transformation Coach"
+- "More on AI → blog.tejindersingh.in"
+- Subtle. Clean. Dark background. This is the credits page, not a sales pitch.
+
+---
+
+## PART 3: THE VISUAL SYSTEM
+
+### The Core Principle: A Carousel Is 70% Visual
+
+If the text is simple, the image should be complex.
+If the text is complex, the image should be simple.
+
+Never let both be simple (boring) or both be complex (overwhelming).
+
+### Color System
 
 ```
-SIGNATURE:             #E85D04   (deep saffron — warm, bold, unique in the AI space)
-```
+── PRIMARY PALETTE ─────────────────────────────────────────
+TERRACOTTA:            #C0653A   (THE signature color — warm, earthy, editorial)
+TERRACOTTA DEEP:       #A8522D   (for highlight boxes — slightly darker for text contrast)
+DARK BACKGROUND:       #1A1815   (warm charcoal — NOT cool black)
+WARM WHITE:            #F2EDE6   (cream, not sterile white — for text on dark)
+WARM BLACK:            #1E1B18   (for text on light backgrounds)
 
-Why saffron: Every AI carousel uses pink, yellow, electric blue, or neon green as their accent. Nobody owns warm orange-saffron. It's bold without being aggressive. It reads as confident and approachable — which is exactly how Tejinder should feel. And it's deeply tied to South Asian identity without being overt about it. When someone sees this color in their feed, they'll learn to associate it with one person.
-
-### Full Color System
-
-```
-── DARK MODE (Primary — 70% of carousels) ──────────────────
-BACKGROUND:            #141218   (deep ink — warm undertone, NOT cool black)
-SIGNATURE:             #E85D04   (deep saffron — THE brand color)
-SIGNATURE LIGHT:       #F4A261   (warm amber — secondary accent, used sparingly)
-PRIMARY TEXT:           #EEEBE4   (warm cream — softer than white)
-SECONDARY TEXT:         #9B978E   (warm grey — body copy, descriptions)
-TERTIARY TEXT:          #5C5852   (dim warm — page numbers, fine print)
-SURFACE:               #1E1B24   (card/panel backgrounds — subtle lift from bg)
-DIVIDERS:              #2A2630   (barely-there structure lines)
-
-── LIGHT MODE (30% of carousels — for variety) ─────────────
-BACKGROUND:            #FAF7F2   (warm paper — not sterile white)
-SIGNATURE:             #D4520A   (deeper saffron on light — maintains punch)
-PRIMARY TEXT:           #1A1814   (warm near-black)
-SECONDARY TEXT:         #5C5852   (warm mid-grey)
-SURFACE:               #F0EDE6   (subtle card lift)
-DIVIDERS:              #E0DCD4
+── SURFACE COLORS ──────────────────────────────────────────
+LIGHT CARD:            #FDFBF7   (warm paper white — for screenshot areas, cards)
+DARK SURFACE:          #232019   (subtle lift from background — for panels)
+MID GREY:              #8A8478   (secondary text, captions, page numbers)
 ```
 
 **Rules:**
-- Alternate between dark and light mode across posts (roughly 70/30). This prevents visual fatigue AND makes each post feel fresh while staying on-brand. The signature saffron works on both
-- Saffron is used on the ONE most important element per slide. Never two things. If everything glows, nothing glows
-- No pure black (#000) or pure white (#FFF) anywhere — the warm undertones are what make this feel human and premium
-- No gradients, no glows, no shadows. Flat, confident, editorial
+- Terracotta is used for: highlight boxes, ONE key word per headline, CTA text, "Here's how:" prompts
+- Never more than ONE terracotta element per slide
+- No pure black (#000) or pure white (#FFF) anywhere
+- Every background has texture — never flat solid color
 
-### Typography System
+### Typography
 
 ```
-DISPLAY / HEADLINES:   Sora — Bold or ExtraBold (700/800)
-                       Modern geometric sans-serif. Clean but has character.
-                       Wider letterforms than typical sans — feels confident, not cramped.
-                       Size: 38–56px depending on word count
+HEADLINES / DISPLAY:   Playfair Display — Bold (700) or Black (900)
+                       Large editorial serif. THE personality of the brand.
+                       Size: 42–64px. Line-height: 1.05–1.1
+                       This font carries the emotional weight of every slide.
 
-BODY / DESCRIPTIONS:   Sora — Regular or Medium (400/500)
-                       Same family as headlines — creates cohesion.
-                       Size: 16–20px. Line-height: 1.45
+BODY / DESCRIPTIONS:   Source Serif 4 — Regular (400) or SemiBold (600)
+                       A serious, readable serif that pairs with Playfair.
+                       Size: 18–24px. Line-height: 1.4
 
-LABELS / EYEBROWS:     Sora — SemiBold (600)
-                       All-caps. Letter-spacing: 2–4px.
-                       Size: 11–13px
+LABELS / STEP NUMBERS: Barlow — SemiBold (600)
+                       Sans-serif for structural elements only.
+                       All-caps. Letter-spacing: 2–3px.
+                       Size: 12–14px
 
-ACCENT / HANDWRITTEN:  Caveat — Bold (700)
-                       THE secret weapon. A handwritten font used for:
-                       → Annotations ("this is the part everyone skips")
-                       → Emotional beats ("^ that hurt to admit")
-                       → Arrows and callouts pointing to things
-                       Size: 18–24px. Always in saffron color.
-                       Maximum ONE Caveat annotation per slide.
+UI / SCREENSHOT LABELS: Barlow — Regular (400)
+                        For labeling screenshot elements.
+                        Size: 11–13px
 ```
 
-**Why this breaks from the template:**
-- Sora is geometric and modern — the opposite of the editorial serifs (Playfair, Lora) everyone else uses
-- The handwritten Caveat annotations are the true differentiator. Nobody else does this. It adds a human voice to what would otherwise be another polished slide deck. When someone sees a hand-scrawled annotation on a carousel, they'll know it's Tejinder before reading the name
-- Single font family for all structured text (Sora) creates visual calm. The Caveat contrast creates visual surprise. That tension is the brand
+**Why serifs:** Serifs feel warm, editorial, and premium. The AI niche is flooded with sans-serif geometric fonts (Sora, Inter, DM Sans). A warm serif instantly separates Tejinder from every other AI creator.
 
-### The Signature Visual Element: The Saffron Sidebar
+### Textures & Backgrounds
 
-Every Tejinder carousel slide has a **4px vertical saffron bar** running along the left edge, from top to bottom. This is the visual fingerprint.
+**Dark textured backgrounds are mandatory.** Never flat color. Options:
 
+1. **Subtle paper grain** — Fine noise at 0.03–0.05 opacity
+2. **Dark wood texture** — For cover slides with product photography
+3. **Concrete/plaster texture** — Very subtle, warm-toned
+4. **Leather/fabric texture** — For premium, editorial feel
+
+**For HTML implementation:**
 ```css
-.slide::before {
+.slide {
+  background: #1A1815;
+  position: relative;
+}
+.slide::after {
   content: '';
   position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: #E85D04;
+  inset: 0;
+  background-image: url("data:image/svg+xml,..."); /* SVG noise */
+  opacity: 0.04;
+  pointer-events: none;
 }
 ```
 
-Why: It's subtle but instantly recognizable. It creates an ownable visual rhythm when someone swipes through slides. No other AI creator has claimed this pattern. Over time, the saffron sidebar becomes as recognizable as anyone else's highlight boxes — but it's yours.
+### Highlight Boxes (The Terracotta Punch)
 
-### Texture
-
-- **Subtle noise overlay:** Very fine grain at 0.02–0.03 opacity. Less than the dark-template carousels use. Just enough to prevent the "flat vector" feel
-- **No other textures.** No gradients, patterns, or imagery. Typography + saffron sidebar + white space
-
-### Layout Grid
-
-```
-┌─ 4px saffron sidebar                                    ┐
-│  ┌──────────────────────────────────────────────────┐   │
-│  │  [36px top padding]                              │   │
-│  │  EYEBROW LABEL (small caps, saffron)             │   │
-│  │  [8px gap]                                       │   │
-│  │                                                  │   │
-│  │  HEADLINE / MAIN CONTENT                         │   │
-│  │  (large, dominant — owns 50-60% of slide)        │   │
-│  │                                                  │   │
-│  │  BODY TEXT (if needed — often skipped)            │   │
-│  │                                                  │   │
-│  │  ✍ Caveat annotation (optional — saffron)        │   │
-│  │                                                  │   │
-│  │  ─── thin divider ─────────────────────────────  │   │
-│  │  TEJINDER SINGH  ·  AI Transformation Coach      │   │
-│  │  blog.tejindersingh.in              SLIDE X / Y  │   │
-│  │  [28px bottom padding]                           │   │
-│  └──────────────────────────────────────────────────┘   │
-└──────────────────────────────────────────────────────────┘
-
-Left content margin:  36px (after the sidebar)
-Right margin:         36px
+```css
+.highlight {
+  display: inline;
+  background: #C0653A;
+  color: #F2EDE6;
+  padding: 4px 10px 6px;
+  line-height: 1.3;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
 ```
 
-**Footer is identical on every slide.** Same position, same content. This is the metronome that holds the carousel together visually.
+Used for the ONE key phrase per slide that carries the emotional weight. Maximum one highlight box per slide.
+
+### The Card-Within-Card CTA Frame
+
+```css
+.cta-card {
+  background: #C0653A; /* full terracotta bg */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cta-card .inner {
+  background: #FDFBF7;
+  border: 2px solid #1E1B18;
+  padding: 48px 40px;
+  text-align: center;
+  max-width: 80%;
+}
+```
 
 ### Aspect Ratio & Dimensions
 
-- **Primary:** 1080 × 1350px (4:5 portrait)
-  - Takes up more mobile screen real estate than square
-  - Pushes competing posts out of view while someone reads
-  - LinkedIn renders this cleanly on both mobile and desktop
-- **Fallback:** 1080 × 1080px (1:1 square) — only if specifically requested
-- **Slide count:** 7–9 slides. Sweet spot is 8. Engagement drops after 10
+- **Primary:** 1080 × 1350px (4:5 portrait) — takes max mobile screen space
+- **Slide count:** 9–10 slides. Never fewer than 9. The emotional arc requires room
+- **Export:** PDF (LinkedIn document post)
 
 ---
 
-## PART 2: CONTENT ARCHITECTURE (BUILT FOR SHARES, NOT SAVES)
+## PART 4: SLIDE TYPE REFERENCE LIBRARY
 
-### The Psychology of Sharing
+### TYPE 1: Photographic Cover
+- Full-bleed AI-generated photograph as background
+- Text overlay in lower third
+- Headline in white Playfair, key word in terracotta
+- No UI chrome (no page numbers, no footer)
+- Image prompt must be generated separately (Gemini/Ideogram/Midjourney)
 
-People repost LinkedIn content for three reasons:
-1. **Status signaling** — "Look what I found" (makes them look informed)
-2. **Tribal identity** — "This is what I believe" (makes them look aligned)
-3. **Gift giving** — "My team needs to see this" (makes them look generous)
+### TYPE 2: Dark Typography (Tension/Provocation)
+- Dark textured background
+- Large stacked serif text, left-aligned
+- One terracotta highlight box on the key phrase
+- Optional "Here's how:" trigger at bottom in terracotta
 
-Your carousel must serve at least one of these motivations. Tutorials and how-tos serve NONE of them — they serve the reader alone, which is why they get saved but never shared.
+### TYPE 3: Split Layout with Screenshot
+- Top 50%: dark background + instruction text
+- Bottom 50%: light background (#FDFBF7) + real tool screenshot
+- Clean divider between sections
+- Screenshot provides proof and credibility
 
-### The 5 Carousel Archetypes (Ranked by Share Potential)
+### TYPE 4: Minimal Statement
+- Dark textured background
+- One sentence in large Playfair (42–56px)
+- Centered or left-aligned
+- Maximum 12 words. The words ARE the design
+- Lots of negative space
 
-**1. THE PROVOCATION (Highest share potential)**
-Opens with a claim that challenges what the audience believes. Creates "I need my network to see this" energy. The reader shares it because agreeing (or disagreeing) publicly says something about who THEY are.
-- "Everyone's racing to add AI tools. Almost nobody is fixing the broken processes underneath."
-- "The AI tool doesn't matter. Your thinking does. And most people skip that part."
-- "Automation made your bad process faster. Congratulations. You now fail at scale."
+### TYPE 5: Card-Framed CTA
+- Full terracotta background
+- White bordered card centered
+- "Found this helpful?" → "Repost it" structure
+- Action framed as helping others, not self-promotion
 
-**2. THE EXPOSÉ**
-Reveals something hidden, wasteful, or broken that the reader's organization is probably doing wrong. Managers share this with their teams. Leaders share it to signal awareness.
-- "Your company is spending heavily on 5 tools that free AI already replaced."
-- "80% of 'AI transformations' are just expensive dashboards nobody opens."
-- "The #1 automation mistake: automating a 12-step process that should be 4 steps."
-
-**3. THE FRAMEWORK (With a point of view)**
-Not a neutral how-to. A framework that implicitly says "if you're not doing it THIS way, you're doing it wrong." Shareable because forwarding it is an act of leadership.
-- "The 4-step AI audit I run before touching a single tool."
-- "The only 3 questions that matter before you automate anything."
-- NOT: "How to use ChatGPT Custom Instructions" — that's a tutorial. Tutorials get saved, not shared.
-
-**4. THE UNCOMFORTABLE TRUTH**
-Names a pain the audience secretly feels but hasn't articulated. Creates the "finally someone said it" reaction. Shared because the act of sharing it IS the commentary.
-- "You don't have a lead generation problem. You have a follow-up problem."
-- "Most AI courses teach you prompts. Nobody teaches you when NOT to use AI."
-- "The real reason your automation failed isn't the tech. It's that nobody mapped the process first."
-
-**5. THE TRANSFORMATION STORY (With stakes)**
-A narrative arc: problem → tension → insight → result. The human element is the engine. Shared because stories travel further than tips.
-- "A client was spending 6 hours daily sorting leads manually. After one conversation, I realized the problem wasn't efficiency — it was that they didn't know which leads mattered."
-- NOT: "Here's how to automate lead qualification in 5 steps." (That's a tutorial.)
-
-### What to STOP Making
-
-- **Pure tutorials** ("How to use X in 8 steps") — These are Wikipedia pages in carousel form. Useful, but people bookmark Wikipedia. They don't repost it
-- **Tool roundups without a point of view** ("Top 5 AI tools for 2026") — Everyone makes these. They're commoditized. No one shares a list they've seen 40 versions of
-- **Framework-only slides with no story** — A 4-step framework is forgettable. The same framework preceded by "I watched a client waste 3 months before I figured this out" is shareable
+### TYPE 6: Numbered Step
+- Dark background
+- Large step number in terracotta ("6.")
+- Instruction headline in white serif
+- 2–3 supporting lines in smaller weight
+- Optional: terracotta highlight on one phrase
 
 ---
 
-## PART 3: SLIDE-BY-SLIDE STRUCTURE
+## PART 5: THE CONTENT ENGINE
 
-### Slide 1 — THE HOOK (70% of your carousel's success is decided here)
+### How to Generate Carousel Topics (Weekly Batch)
 
-This slide has ONE job: earn the swipe. It is NOT a title card. It is NOT a summary. It is a provocation.
+Every week, before creating any slides:
 
-**Structure:**
-- Eyebrow: Category label in saffron (e.g., "AI AUTOMATION", "HARD TRUTH")
-- Headline: The provocation. Maximum 12 words. Must create cognitive friction — the reader should feel a small jolt of disagreement, curiosity, or recognition
-- Caveat annotation (optional): A handwritten aside that adds human voice ("^ controversial? keep swiping.")
-- NO body text. NO subheadlines. NO "In this carousel you'll learn..." — that's a death sentence
+**Step 1: Identify this week's common advice in the niche.**
+Scan what AI/automation creators are posting. What's the default take everyone agrees on?
 
-**The Hook Test:** Read the headline out loud. If someone could respond "So what?" — rewrite it. If someone would respond "Wait, what?" or "Finally someone said it" — ship it.
+Examples of common advice:
+- "Use AI to automate your workflows"
+- "Write better prompts for better results"
+- "AI will replace jobs"
+- "Use ChatGPT for content creation"
+- "Automate your lead generation"
 
-**Good hooks:**
-- "Automation made your bad process faster. Congratulations."
-- "You're not bad at AI. You're just briefing it like it's an intern."
-- "Every AI tool you're paying for has a free version. Most are better."
-- "The businesses winning with AI aren't the ones using the most tools."
+**Step 2: Write 5 contrarian hooks that argue the opposite.**
+For each common advice, find the hidden frustration and flip it:
 
-**Bad hooks:**
-- "5 Amazing AI Tools You Need to Try!" (generic, no friction)
-- "In today's carousel, I'll break down..." (meta-narration kills curiosity)
-- "AI is transforming business." (everyone knows this — zero information)
-- "Here's what I learned about automation." (about you, not about them)
+```
+Common: "Automate your workflows"
+Hidden frustration: "I automated and it's now a bigger mess"
+Hook: "You automated a broken process. Now it breaks at scale."
 
-### Slide 2 — THE TENSION
+Common: "Write longer, more detailed prompts"  
+Hidden frustration: "My long prompts still give garbage output"
+Hook: "Stop prompting. Start uploading."
 
-This is the most underused slide in all of LinkedIn. Most carousels jump straight from hook to framework. That's like telling the punchline before the joke.
+Common: "AI replaces expensive tools"
+Hidden frustration: "I replaced my tools but the work isn't better"
+Hook: "The tool was never the problem. Your process was."
 
-Slide 2 names the **pain** or the **contradiction** that makes the hook real. It makes the reader feel seen. It creates the emotional contract that keeps them swiping.
+Common: "Learn prompt engineering"
+Hidden frustration: "I took 3 courses and I'm still mediocre at this"
+Hook: "Prompt engineering is dead. Context engineering is what works."
 
-**Structures that work:**
-- "Here's what I keep seeing..." + a specific, uncomfortable observation from real work
-- A before/after contrast: what people think vs. what actually happens
-- A single statistic or observation that proves the hook isn't hyperbole
-- A brief story beat: "A founder told me last month: 'We automated everything. Nothing got better.'"
+Common: "Use AI for lead generation"
+Hidden frustration: "AI gives me more leads but worse leads"
+Hook: "You don't have a lead problem. You have a qualification problem."
+```
 
-**The Caveat annotation shines here:**
-- "^ I've had this exact conversation 11 times this year."
-- "^ this is the part nobody wants to admit."
+**Step 3: Select the best 3 hooks for this week's carousels.**
+One provocation, one exposé, one framework. Build 9–10 slides for each.
 
-### Slides 3–6 — THE SUBSTANCE
+### Voice & Tone Rules
 
-Now deliver the framework, the reveal, or the transformation. One idea per slide. Always.
+- **Practitioner, not professor.** "Here's what I keep seeing..." not "Research suggests..."
+- **Specific, not abstract.** "A client was spending 6 hours daily sorting leads" not "Many businesses struggle with efficiency"
+- **Conversational, not formal.** Read every line out loud. If it sounds like a blog post, rewrite it. If it sounds like something you'd say over coffee, keep it
+- **Opinionated, not neutral.** Take a stance. "Do X. Here's why." not "You might consider trying X"
+- **Short sentences.** If a sentence has a comma, it can probably be two sentences
 
-**Type A — Framework Slide:**
-- Eyebrow: "STEP 01 OF 04" or "PRINCIPLE 1"
-- Headline: The principle or action (imperative voice)
-- Body: 1–2 sentences. Concrete, specific. Use an example, not an explanation
-- Optional Caveat annotation pointing to the key insight
+### The Robot Check
 
-**Type B — Contrast Slide:**
-- Two rows: "WHAT MOST PEOPLE DO" (struck through or dimmed) vs. "WHAT ACTUALLY WORKS" (in saffron)
-- Minimal text. The visual contrast does the talking
-
-**Type C — Evidence Slide:**
-- A specific result, number, or real-world example
-- "After one automation: 6 hours/day → 15 minutes. Same team. Same tools."
-- This is where practitioner credibility lives
-
-**Type D — Story Beat:**
-- A single moment from a real engagement or conversation
-- "The founder went quiet for 10 seconds. Then: 'We've been automating the wrong thing.'"
-- These slides are the most shared slides in any carousel. People screenshot these
-
-**Rules for all substance slides:**
-- Maximum 35 words of body text. If you need more, you need another slide
-- Every slide must be self-contained — if someone screenshots just this one slide, it should still make sense
-- Use Caveat annotations to add the human aside that wouldn't fit in "professional" body copy
-
-### Slide 7 or 8 — THE TAKEAWAY
-
-The summary slide. But not a boring recap.
-
-**Structure:**
-- Headline: A single-line reframe of the whole carousel's point
-- The key items in arrow format: → Item 1 → Item 2 → Item 3
-- Caveat annotation with the emotional punchline: "^ the tools are the easy part. The thinking is the hard part."
-
-**This is the screenshot slide.** Design it knowing people will screenshot it and send it in WhatsApp groups, Slack channels, and email threads. Make sure it stands alone.
-
-### Final Slide — THE HUMAN CLOSE
-
-Not a CTA. A moment of connection.
-
-**Structure:**
-- Headline: A closing thought that earns respect, not a click. Something the reader walks away thinking about
-  - "The tool is never the problem. The question you asked it is."
-  - "Automate what drains you. Protect what makes you human."
-  - "AI doesn't replace expertise. It exposes the lack of it."
-- Author block: Saffron vertical bar + "Tejinder Singh" + "AI Transformation Coach"
-- Footer: "More on AI → blog.tejindersingh.in"
-- Share nudge: "♻ Repost if your team needs to hear this." (Notice: "your team" — it gives them permission to share by framing it as a generous act, not self-promotion)
-
-**Never use:**
-- "Follow me for more!" (desperate)
-- "DM me if you want help" (salesy)
-- "Like and comment below!" (begging)
+Before finalizing any carousel, read every slide and ask:
+1. **"What part of this sounds like a robot wrote it?"** → Rewrite those lines in spoken language
+2. **"Where am I being too formal?"** → Replace corporate phrases with human ones:
+   - "Leverage AI capabilities" → "Use AI"
+   - "Optimize your workflow" → "Fix what's broken"
+   - "Implement a solution" → "Build it"
+   - "Utilize this framework" → "Try this"
+   - "In order to" → "To"
+   - "It is important to note that" → DELETE ENTIRELY
 
 ---
 
-## PART 4: THE HUMAN LAYER
+## PART 6: TECHNICAL PIPELINE
 
-This is what separates carousels that get 50 saves from carousels that get 200 reposts.
+### Step 1: Generate the Cover Photo
 
-### The Caveat Annotation System
+The cover image (Slide 1) requires an AI image generator. Produce a prompt for the user to run in Gemini, Ideogram, or Midjourney:
 
-The handwritten Caveat annotations are not decoration. They are the human voice breaking through the polished design. They serve three functions:
+```
+Prompt structure:
+"[Concrete object as metaphor for topic], [physical surface/environment],
+warm [lighting direction] lighting, shallow depth of field,
+[2-3 mood adjectives]. Shot on medium format camera. No text in image."
+```
 
-1. **Vulnerability:** "^ I learned this the hard way." / "^ took me 3 failed projects to figure this out."
-2. **Emphasis:** "^ this is the slide to screenshot." / "^ read this twice."
-3. **Personality:** "^ yes, I tried the expensive tool first too." / "^ controversial? maybe. true? definitely."
+Examples:
+- Prompting → "Vintage brass typewriter key with sun symbol, warm walnut desk, warm side lighting, shallow depth of field, tactile editorial moody. Shot on medium format camera. No text."
+- Automation failure → "Tangled copper wires spilling from an open junction box, concrete workshop surface, warm overhead lighting, shallow depth of field, raw industrial honest. No text."
+- Process mapping → "Architect's compass and pencil on yellowed blueprint paper, warm desk lamp lighting from left, shallow depth of field, precise methodical warm. No text."
 
-**Rules:**
-- Maximum ONE annotation per slide. Two feels cluttered
-- Always in saffron (#E85D04)
-- Always preceded by ^ or accompanied by a hand-drawn arrow (→ or ↗)
-- Never on Slide 1 (keep the hook clean) — start on Slide 2 or 3
-- Use on 3–4 slides per carousel, not every slide. Scarcity = impact
+### Step 2: Build the HTML Carousel
 
-### Story Beats
+Create a single interactive HTML file with all 9–10 slides. Each slide uses the appropriate Type (1–6) from the reference library.
 
-At least ONE slide per carousel should contain a specific, human moment:
-- A conversation with a client (anonymized)
-- A mistake you made and what it taught you
-- A specific observation from real work, not from the internet
-- A number tied to a real outcome, not a hypothetical
+**Font imports:**
+```html
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Serif+4:wght@400;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+```
 
-**Template:** "[Person/situation] + [what everyone expected] + [what actually happened] + [the insight]"
+**Slide 1 (Cover):** Background image is referenced as a placeholder or base64-encoded if provided. Text overlay positioned at bottom.
 
-Example: "A team of 12 was manually sorting 400 leads/week. They assumed they needed a big CRM. They needed a free automation that took 2 hours to build. The CRM was hiding the real problem: they had no scoring criteria."
+**Slides 2–8:** Built using Types 2–4, 6 from the reference library. Mix layouts. Never repeat the same type consecutively.
 
-### The "Make Them Look Smart" Test
+**Slide 9 (Bridge to Action):** Type 5 — card-within-card CTA.
 
-Before publishing, ask: **"If someone reposts this carousel right now, what do they look like to THEIR network?"**
+**Interactive features:** Keyboard nav (← →), dot indicators, touch swipe.
 
-- ✅ "A leader who's ahead of the curve on AI"
-- ✅ "Someone who cares about their team's efficiency"
-- ✅ "A person with sharp taste in content"
-- ❌ "Someone who bookmarks tutorials" (that's a save, not a share)
-- ❌ "A follower of yet another AI guru" (negative signal — won't share)
+### Step 3: Screenshot with Playwright
 
----
+```python
+from playwright.sync_api import sync_playwright
+import time
 
-## PART 5: TECHNICAL PIPELINE
+with sync_playwright() as p:
+    browser = p.chromium.launch()
+    page = browser.new_page(viewport={'width': 1080, 'height': 1350})
+    page.goto('file://' + html_path)
+    time.sleep(3)  # Font render wait — NON-NEGOTIABLE
 
-### Method 1: HTML → Playwright → PDF (Primary)
+    n = page.evaluate('document.querySelectorAll(".slide").length')
+    for i in range(n):
+        page.evaluate(f'''
+            document.querySelectorAll(".slide").forEach((s, idx) => {{
+                s.classList.remove("active", "exit");
+                if (idx === {i}) s.classList.add("active");
+            }});
+        ''')
+        time.sleep(0.5)
+        stage = page.query_selector('.stage')
+        stage.screenshot(path=f'slide_{i+1:02d}.png')
+    browser.close()
+```
 
-1. **Build as single interactive HTML file**
-   - All slides, CSS classes for show/hide, keyboard nav (← →), dots, touch swipe
-   - Google Fonts CDN: Sora (all weights), Caveat (Bold)
-   - Saffron sidebar as `::before` pseudo-element on every slide
-   - SVG noise texture at 0.02 opacity
+### Step 4: Assemble PDF
 
-2. **Screenshot each slide with Playwright**
-   ```python
-   from playwright.sync_api import sync_playwright
-   import time
+```python
+from PIL import Image
+images = [Image.open(f'slide_{i+1:02d}.png').convert('RGB') for i in range(n)]
+images[0].save('carousel.pdf', save_all=True, append_images=images[1:], resolution=150)
+```
 
-   with sync_playwright() as p:
-       browser = p.chromium.launch()
-       page = browser.new_page(viewport={'width': 1080, 'height': 1350})  # 4:5 portrait
-       page.goto('file://' + html_path)
-       time.sleep(3)  # CRITICAL: font render wait
+### Step 5: Deliver
 
-       n = page.evaluate('document.querySelectorAll(".slide").length')
-       for i in range(n):
-           page.evaluate(f'''
-               document.querySelectorAll(".slide").forEach((s, idx) => {{
-                   s.classList.remove("active", "exit");
-                   if (idx === {i}) s.classList.add("active");
-               }});
-           ''')
-           time.sleep(0.5)
-           stage = page.query_selector('.stage')
-           stage.screenshot(path=f'slide_{i+1:02d}.png')
-       browser.close()
-   ```
+Output files:
+```
+/mnt/user-data/outputs/
+├── postNN_carousel.html        ← Interactive preview
+├── postNN_carousel.pdf         ← Final PDF for LinkedIn
+├── postNN_cover_prompt.txt     ← Image generation prompt for cover photo
+└── postNN_screenshots/         ← Individual slide PNGs (optional)
+```
 
-3. **Assemble PDF with Pillow**
-   ```python
-   from PIL import Image
-   images = [Image.open(f'slide_{i+1:02d}.png').convert('RGB') for i in range(n)]
-   images[0].save('carousel.pdf', save_all=True, append_images=images[1:], resolution=150)
-   ```
-
-**Production notes:**
-- 3-second font wait is non-negotiable — Playwright captures system fonts without it
-- Use 1080×1350 viewport for portrait, 1080×1080 for square
-- Always toggle `active` class per slide — don't screenshot all at once
-- Color-swap for light mode: use Python `re.sub`, not `sed` (breaks on nested patterns)
-
-### Method 2: Gamma (Quick previews only)
-
-- Pass all slides as single `inputText` with `---` separators
-- Dimensions: `4x5` for portrait, `1x1` for square
-- Image source: `noImages`
-- Theme: Closest to warm dark palette
-- Text mode: `preserve`
-- Note: Gamma won't render the saffron sidebar or Caveat annotations — these must be added manually
-
----
-
-## PART 6: CONTENT PRINCIPLES
-
-### Voice & Tone
-- First person, practitioner voice ("Here's what I keep seeing...", "The pattern nobody talks about...")
-- Direct and opinionated. Not "you could try X." Instead: "Do X. Here's why."
-- Warm authority — like a mentor who's done the work, not a professor who read the book
-- Comfortable saying "I don't know" or "I got this wrong" — vulnerability IS the brand
-
-### What NOT to write
-- "In this carousel, I'll show you..." (kills curiosity — show, don't announce)
-- Generic advice without specifics ("Leverage AI for productivity!")
-- Self-promotional framing on every post ("When I was working with a Fortune 500 client...")
-- Jargon without translation (say "AI reads your words, not your mind" instead of "LLMs process tokens in a context window")
-- India-specific framing (rupee formatting, city references) — keep the audience global
-- Step-by-step tutorials with no story or point of view — these are save-content, not share-content
-
-### Content Mix (Per 10 Carousels)
-- 3 Provocations
-- 2 Exposés
-- 2 Frameworks (with point of view)
-- 2 Uncomfortable Truths
-- 1 Transformation Story
-
-This mix prevents "tutorial fatigue" and keeps the audience on edge about what's coming next.
+Always provide the cover image prompt separately so the user can generate it in Gemini/Ideogram/Midjourney and replace the placeholder.
 
 ---
 
 ## PART 7: QUALITY CHECKLIST
 
-### The Share Test (Do this FIRST — before checking design)
-- [ ] If someone reposts this, do they look smart/generous/ahead-of-the-curve to their network?
-- [ ] Is there at least ONE slide that would make someone tag a colleague or send in a group chat?
-- [ ] Does the hook create friction (disagreement, surprise, recognition) — or just curiosity?
-- [ ] Is there a human moment (story, mistake, specific observation) in at least one slide?
-- [ ] Would a manager share this with their team? Why?
+### The Think Tank Check (Do FIRST)
+- [ ] Hook argues the OPPOSITE of common advice in the niche
+- [ ] Hidden frustration is named — not just a generic pain point
+- [ ] Every line passes the robot check ("Would I say this out loud?")
+- [ ] No corporate phrases survived ("leverage", "utilize", "implement", "optimize")
+- [ ] Slide 1 = High Tension. Slide 5 = Aha Moment. Slide 9 = Bridge to Action
+- [ ] If someone reposts this, they look SMART to their network — not like a follower
 
-### Design
-- [ ] Saffron sidebar (4px, #E85D04) is present on every slide
-- [ ] Background is #141218 (dark mode) or #FAF7F2 (light mode) — no pure black/white
-- [ ] Signature saffron used on max ONE element per slide
-- [ ] Fonts are Sora (structured text) + Caveat (handwritten annotations)
-- [ ] Caveat annotations appear on 3–4 slides, never on Slide 1
-- [ ] Noise texture present at 0.02–0.03 opacity
-- [ ] All slides follow identical grid (36px margins, consistent footer, same sidebar)
-- [ ] No stock photos, illustrations, icons, or decorative elements
+### The Share Test
+- [ ] Is there at least ONE slide someone would screenshot and send in a group chat?
+- [ ] Would a manager share this with their team? Why specifically?
+- [ ] Does the CTA frame reposting as HELPING OTHERS, not promoting you?
 
-### Content
-- [ ] Slide 1 hook is under 12 words and creates cognitive friction
-- [ ] Slide 2 names a pain or contradiction (doesn't jump to framework)
-- [ ] One idea per slide — no cramming
-- [ ] Body text under 35 words per slide
-- [ ] At least one Story Beat slide with a specific human moment
-- [ ] No hard CTAs. Share nudge on last slide only: "♻ Repost if your team needs to hear this."
-- [ ] Footer on every slide: "More on AI → blog.tejindersingh.in"
-- [ ] Author block on last slide: "Tejinder Singh · AI Transformation Coach"
-- [ ] Archetype is identified (Provocation / Exposé / Framework / Uncomfortable Truth / Story)
+### The Visual Check
+- [ ] Slide 1 has a photographic hero image (or a prompt to generate one)
+- [ ] No two consecutive slides use the same layout type
+- [ ] At least ONE slide includes a real screenshot/proof element
+- [ ] All dark backgrounds have texture (never flat #000)
+- [ ] Terracotta (#C0653A) used on max ONE element per slide
+- [ ] Highlight boxes used on the emotional peak, not scattered randomly
+- [ ] Card-framed CTA on the Bridge slide (Slide 9)
+- [ ] Typography is Playfair Display (headlines) + Source Serif 4 (body)
 
-### Technical
-- [ ] 7–9 slides total (8 is ideal)
-- [ ] Exports at 1080×1350px (portrait) or 1080×1080px (square)
-- [ ] Fonts rendered correctly (no Arial/Helvetica fallbacks in PDF)
-- [ ] File size under 10MB
-- [ ] Both dark and light variants available if needed
+### The Content Check
+- [ ] 9–10 slides total. Never fewer than 9
+- [ ] Maximum 35 words per slide on text-heavy slides
+- [ ] At least one story beat / specific human moment
+- [ ] The "Aha!" moment (Slide 5) works as a standalone screenshot
+- [ ] No hard CTAs ("Follow me!", "DM me!", "Book a call!")
+- [ ] Footer on last slide only: "Tejinder Singh · AI Transformation Coach"
+
+### The Technical Check
+- [ ] Portrait format: 1080 × 1350px
+- [ ] Fonts render correctly (3-second Playwright wait)
+- [ ] PDF file size under 10MB
+- [ ] Cover image prompt is provided separately for AI generation
 
 ---
 
-## PART 8: FILE OUTPUT
+## PART 8: WEEKLY WORKFLOW
 
-```
-/mnt/user-data/outputs/
-├── postNN_carousel.html      ← Interactive preview (dark mode)
-├── postNN_carousel.pdf       ← Final PDF for LinkedIn upload
-├── postNN_light.html         ← Light mode variant (if requested)
-└── postNN_light.pdf          ← Light mode PDF (if requested)
-```
+### Monday: Ideation
+- Scan what's being posted in the AI/automation niche
+- Identify 3 pieces of common advice
+- Write 5 contrarian hooks per piece (15 total)
+- Select the best 3 hooks for this week
+- Assign archetypes: 1 provocation, 1 exposé, 1 framework
 
-Working files in `/home/claude/` — never in outputs.
+### Tuesday–Wednesday: Build Carousel 1
+- Write the 9-slide arc for Hook #1
+- Run the robot check
+- Generate cover image prompt
+- Build HTML → Screenshot → PDF
+
+### Thursday: Build Carousel 2
+- Same process for Hook #2
+- Vary the visual approach (if Carousel 1 was heavy on dark typography, make Carousel 2 heavier on screenshots and split layouts)
+
+### Friday–Saturday: Build Carousel 3
+- Same process for Hook #3
+- Ensure all three carousels look related (same brand) but not identical (different layouts, different photo styles)
+
+### Publishing: 3 times per week
+- Post with a text caption that opens with the contrarian hook
+- Caption should be 150–250 words
+- No hashtags in caption (they reduce reach in 2026)
+- First comment can include relevant link or resource
 
 ---
 
 ## THE 10 NON-NEGOTIABLES
 
-1. **Saffron sidebar on every slide.** 4px. Left edge. #E85D04. The visual fingerprint
-2. **Caveat handwritten annotations.** The human voice that no polished template can replicate
-3. **Sora for structure. Caveat for humanity.** Two fonts. Two voices. One brand
-4. **Warm palette — never cold.** #141218 not #000. #EEEBE4 not #FFF. Warmth = trust
-5. **Slide 2 is tension, not content.** Name the pain before offering the cure
-6. **One human moment per carousel.** A story, a mistake, a specific observation from real work
-7. **"Make them look smart" test before publishing.** If sharing it doesn't elevate the sharer, rewrite it
-8. **No pure tutorials.** Every framework needs a point of view. Every how-to needs stakes
-9. **Alternate dark/light mode.** 70/30 split. Prevents visual fatigue. Same brand, different energy
-10. **The share nudge, not the follow beg.** "♻ Repost if your team needs this" — never "Follow me!"
+1. **Contrarian hooks only.** If it sounds like something 10 other creators posted, throw it away
+2. **Slide 1 = High Tension.** Photographic. Cinematic. Magazine cover energy
+3. **Slide 5 = Aha Moment.** The screenshot-worthy insight. The paradigm shift
+4. **Slide 9 = Bridge to Action.** Card-framed CTA. Reposting = helping others
+5. **70% visual.** Simple text → complex image. Complex text → simple image
+6. **Warm editorial serifs.** Playfair Display. Not sans-serif. Not geometric. WARM
+7. **Terracotta accent (#C0653A).** One element per slide. Earthy. Human. Yours
+8. **Real screenshots as proof.** At least one per carousel. Real > theoretical
+9. **Robot check every slide.** If it sounds written, rewrite it until it sounds spoken
+10. **Think tank, not content writer.** Strategy first. Contrarian angle first. Design second
