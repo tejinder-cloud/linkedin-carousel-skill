@@ -1,6 +1,16 @@
 ---
 name: linkedin-carousel-design
-description: Design and generate LinkedIn carousel posts (PDF document posts) for Tejinder Singh's AI expertise brand. Use this skill whenever the user asks to create a carousel, design slides, build a LinkedIn PDF post, make a swipeable post, create carousel content, or mentions "carousel", "slides", "LinkedIn PDF", "document post", or "swipeable post". Also trigger when the user asks to convert any post content into visual carousel format, batch-produce carousels, brainstorm carousel topics, or plan weekly content. This skill is a THINK TANK — it generates contrarian hooks, designs editorial-grade mixed-media slides, and produces publish-ready PDFs. It covers the complete pipeline: ideation → content architecture → visual design → HTML rendering → PDF export → quality checks.
+description: >
+  Design and generate LinkedIn carousel posts (PDF document posts) for Tejinder Singh.
+  Use this skill whenever the user asks to create a carousel, design slides, build a
+  LinkedIn PDF post, make a swipeable post, or create carousel content. Also trigger
+  when the user mentions carousel, slides, LinkedIn PDF, document post, or swipeable
+  post. Also trigger when the user asks to convert post content into visual carousel
+  format, batch-produce carousels, brainstorm carousel topics, or plan weekly content.
+  This skill is a THINK TANK that generates contrarian hooks, designs editorial-grade
+  mixed-media slides, and produces publish-ready PDFs. It covers the complete pipeline
+  from ideation to content architecture to visual design to HTML rendering to PDF export
+  to quality checks.
 ---
 
 # LinkedIn Carousel Think Tank — Tejinder Singh
